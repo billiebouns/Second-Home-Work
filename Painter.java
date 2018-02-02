@@ -13,10 +13,8 @@ public class Painter {
         figures.add( new Circle(10.5));
         figures.add(new Cube(10,10,10));
         figures.add(new Rectangle(5,10));
-        Figure[] draw = {};
-        draw = figures.toArray(new Figure[figures.size()]);
-        for(int x = 0; x< draw.length;x++){
-            draw[x].draw();
+        for(Figure i:figures){
+            i.draw();
         }
 
     }
