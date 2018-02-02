@@ -1,11 +1,8 @@
 package Figure;
 
-import Painter.Painter;
+public class Circle extends Figure {
 
-public class Circle extends Painter {
-    private int diametr;
-    private double pi;
-    private double lenght = diametr * pi;
+    private double lenght;
 
     public Circle( double lenght){
         this.lenght= lenght;
@@ -13,7 +10,6 @@ public class Circle extends Painter {
 
     @Override
     public void draw() {
-        super.draw();
         System.out.println("Circle");
     }
 }

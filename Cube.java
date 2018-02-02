@@ -1,8 +1,6 @@
 package Figure;
 
-import Painter.Painter;
-
-public class Cube extends Painter{
+public class Cube extends Figure{
     private int widht;
     private int height;
     private int depth;
@@ -14,7 +12,6 @@ public class Cube extends Painter{
     }
     @Override
     public void draw() {
-        super.draw();
         System.out.println("Cube");
     }
 }

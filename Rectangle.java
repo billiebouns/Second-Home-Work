@@ -1,8 +1,6 @@
 package Figure;
 
-import Painter.Painter;
-
-public class Rectangle extends Painter{
+public class Rectangle extends Figure{
     private int width;
     private int height;
 
@@ -12,7 +10,6 @@ public class Rectangle extends Painter{
     }
     @Override
     public void draw() {
-        super.draw();
         System.out.println("Rectangle");
     }
 }
